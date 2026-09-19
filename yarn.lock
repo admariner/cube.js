@@ -11634,16 +11634,17 @@ find-yarn-workspace-root@^2.0.0:
   dependencies:
     micromatch "^4.0.2"
 
-firebolt-sdk@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/firebolt-sdk/-/firebolt-sdk-1.10.0.tgz#915a35155a58ecb2bc431db73ac3d3d18639f0da"
-  integrity sha512-MShjlTGpzoW69A/4eymWmUGTWZxME9g00W5p/hm17s5ewTLCx2hq0XcnTt2nzL58ZgVA4qnmLmwWF20D95//uQ==
+firebolt-sdk@1.14.5:
+  version "1.14.5"
+  resolved "https://registry.yarnpkg.com/firebolt-sdk/-/firebolt-sdk-1.14.5.tgz#74dc853f09e888833e8d3975129a8980ae798589"
+  integrity sha512-Pgbh1YCah68Iw5WznEpKXtpUBAACTBF3rdnRYXYDvzHlquhPS4b+cdYmjuyOnUDm8D5piavS5gsKrBYxgKzDNw==
   dependencies:
     "@types/json-bigint" "^1.0.1"
     abort-controller "^3.0.0"
     agentkeepalive "^4.5.0"
     json-bigint "^1.0.0"
     node-fetch "^2.6.6"
+    rwlock "^5.0.0"
 
 flat@5.0.2:
   version "5.0.2"
@@ -17779,6 +17780,11 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+rwlock@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rwlock/-/rwlock-5.0.0.tgz#888d6a77a3351cc1a209204ef2ee1722093836cf"
+  integrity sha512-XgzRqLMfCcm9QfZuPav9cV3Xin5TRcIlp4X/SH3CvB+x5D2AakdlEepfJKDd8ByncvfpcxNWdRZVUl38PS6ZJg==
 
 rxjs@7.8.2, rxjs@^7.8.1, rxjs@^7.8.2, rxjs@~7.8.0:
   version "7.8.2"
